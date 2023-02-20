@@ -1,0 +1,128 @@
+/* rubik-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Rubik Light';
+    font-style: normal;
+    font-weight: light;
+    src: url('../fonts/rubik-v23-latin-300.woff2') format('woff2'),
+        url('../fonts/rubik-v23-latin-300.woff') format('woff');
+}
+
+/* rubik-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Rubik Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/rubik-v23-latin-regular.woff2') format('woff2'),
+        url('../fonts/rubik-v23-latin-regular.woff') format('woff');
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Rubik Medium';
+    font-style: normal;
+    font-weight: medium;
+    src: url('../fonts/rubik-v23-latin-500.woff2') format('woff2'),
+        url('../fonts/rubik-v23-latin-500.woff') format('woff');
+}
+
+/* rubik-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Rubik Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/rubik-v23-latin-700.woff2') format('woff2'),
+        url('../fonts/rubik-v23-latin-700.woff') format('woff');
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik Light', sans-serif;
+    position: relative;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10vw 20px 5vw;
+}
+
+nav li a {
+    color: black;
+    font-size: 2vw;
+    font-family: 'Rubik Bold';
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+section * {
+    text-align: center;
+}
+
+section {
+    min-height: 80vh;
+    padding-top: 150px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    scroll-snap-align: start;
+}
+
+.title {
+    font-family: 'Rubik Bold';
+    font-size: 6vw;
+}
+
+.subtitle {
+    font-family: 'Rubik Normal';
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: 'Rubik Bold';
+    font-size: 2vw;
+}
+
+p {
+    font-size: 2.5vw;
+}
+
+@media (max-width:630px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
