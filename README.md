@@ -27,6 +27,15 @@ __Associate bought URL with firebase deployment__
     - Enter domain: alli-app.com
     - Verfiy Ownership: copy IP, go to https://domains.google.com/registrar/alli-app.com/dns -> Custom Records -> Type: A -> Data: Enter IP from above -> Save
 
+__Caching + DDoS prevention__
+- Login to https://dash.cloudflare.com/
+- Add a Site, follow instructions 
+    - This includes changing the nameserver from google to cloudflare
+- After the setup, caching and DDoS Prevention are automatically setup
+- Changes to the website will not be seen immediately after this. From the overview page, either
+    - "Purge Cache" or
+    - enable "Development Mode"
+
 ### Update
 - Open a terminal, switch to the root folder of the github repository
 - Run `firebase login` 
