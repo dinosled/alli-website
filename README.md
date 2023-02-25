@@ -4,8 +4,8 @@
 [comment]: <> (all instructions can be found here: https://medium.com/@pablo.delvalle.cr/googles-firebase-for-simple-static-site-hosting-with-ssl-certificate-f0f001ffbf6f)
 
 ### Setup
-__Buy URL__
-https://domains.google.com
+__Buy URL__  
+- https://domains.google.com
 
 __Deploy with Google Firebase__
 - Login to https://console.firebase.google.com/
@@ -38,5 +38,6 @@ __Caching + DDoS prevention__
 
 ### Update
 - Open a terminal, switch to the root folder of the github repository
+- Install firebase CLI with `curl -sL https://firebase.tools | bash`
 - Run `firebase login` 
 - Run `firebase deploy`
