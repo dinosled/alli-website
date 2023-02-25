@@ -11,6 +11,7 @@ __Deploy with Google Firebase__
 - Login to https://console.firebase.google.com/
 - Create project (Alli)
 - From your local machine, open a terminal and switch to the root directory of the github project
+- Install firebase CLI with `curl -sL https://firebase.tools | bash`
 - Run `firebase login` and authenticate with the google credentials you used above
 - Run `firebase init`, choose `Hosting: Configure files for Firebase Hosting ...` 
 - Use existing project -> alli-33a73
