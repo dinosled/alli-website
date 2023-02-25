@@ -3,10 +3,13 @@
 
 <head>
     <title>Alli-App</title>
-    <link rel="stylesheet" href="styles/styles.css">
     <meta charset="UTF-8">
     <meta name="description" content="made to support people during the process of abortion with pills">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/alli-logo.svg" sizes="any">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/aef5f71cc9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +24,10 @@
 
     <main>
         <section id="title-section">
-            <h1 class="title">Alli</h1>
+            <div class="title-container">
+                <img class="alli-logo" src="./assets/images/alli-logo.svg" alt="Alli Logo" />
+                <h1 class="title">Alli</h1>
+            </div>
             <p class="subtitle">Made to support people during the process of abortion with pills.</p>
         </section>
 
@@ -47,9 +53,25 @@
 
         <section id="contact-section">
             <h2>Contact</h2>
-            <p>E-Mail</p>
+            <div class="button-container">
+                <a class="btn" href="mailto:team@alli-app.com" aria-label="Write us an E-Mail" target="_blank">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a class="btn" href="https://github.com/dinosled/alli-app" aria-label="Check out our Project on GitHub"
+                    target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <h2>Funding by:</h2>
+        <div class="fundings">
+            <img src="./assets/images/logo_BMBF.svg" alt="Logo of Bundesministerium für Bildung und Forschung (BMBF)" />
+            <img src="./assets/images/logo_prototypefund.png" alt="Logo of Prototypefund" />
+        </div>
+    </footer>
 
 </body>
 
