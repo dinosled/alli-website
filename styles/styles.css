@@ -99,13 +99,13 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: -150px;
+    margin-left: -100px;
 }
 
 .alli-logo {
-    margin-top: 30px; 
-    width: 150px;
-    height: 150px;
+    padding-top: 60px;
+    width: 100px;
+    height: 100px;
 }
 
 /* sections */
@@ -184,12 +184,13 @@ footer h2 {
         font-size: 80px;
     }
     .title-container {
-        margin-left: -100px;
+        margin-left: -80px;
     }
     
     .alli-logo {
-        width: 100px;
-        height: 100px;
+        padding-top: 35px;
+        width: 80px;
+        height: 80px;
     }
 
     .subtitle {
@@ -231,12 +232,13 @@ footer h2 {
     }
 
     .title-container {
-        margin-left: -75px;
+        margin-left: -50px;
     }
     
     .alli-logo {
-        width: 75px;
-        height: 75px;
+        padding-top: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .btn i {
@@ -272,12 +274,13 @@ footer h2 {
     }
 
     .title-container {
-        margin-left: -50px;
+        margin-left: -40px;
     }
     
     .alli-logo {
-        width: 60px;
-        height: 60px;
+        padding-top: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .btn i {
