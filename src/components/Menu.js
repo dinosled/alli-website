@@ -22,9 +22,9 @@ const Menu = () => {
                     <li><a href="/">Home</a></li>
                     <li><a href="/projects">Projects</a></li>
                     <li><a href="/about">About us</a></li>
-                    <li><a href="/insights">Informative Insights</a></li>
-                    <li><a href="/participate">Get involved</a></li>
-                    <li><a href="/contact">Contact & Imprint</a></li>
+                    {/* <li><a href="/insights">Informative Insights</a></li> */}
+                    {/* <li><a href="/participate">Get involved</a></li> */}
+                    {/* <li><a href="/contact">Contact & Imprint</a></li> */}
                 </ul>
             </nav>
         </div>

@@ -16,14 +16,14 @@ const Projects = () => {
         }/>
         <Content
         text={<p>Alli's flagship product is the <em className={styles.emphasized}>Alli-App</em>, designed to guide patients through the entire medication abortion process. With daily updates on next steps, side effect management, and FAQs, the app provides patients with the support they need. Thanks to funding from the Prototype Fund with resources from the BMBF, the app is already in development.
-        <div className={styles.link}><a href="https://github.com/dinosled/alli-app" target="_blank" rel="noreferrer">Join our App-Testgroup</a> </div>
+        {/* <div className={styles.link}><a href="https://github.com/dinosled/alli-app" target="_blank" rel="noreferrer">Join our App-Testgroup</a> </div> */}
         <div className={styles.link}><a href="https://github.com/dinosled/alli-app" target="_blank" rel="noreferrer">Join our code community</a> </div>         
         </p>}
         image={<img src={products_img_2 } alt="A smartphone with some abstract content."/>}
         />
         <Content
         text={<p>We are also working on the <em className={styles.emphasized}>Alli-Box</em>, a packaging solution for medical professionals to package medication for terminating an unwanted pregnancy or early pregnancy loss. Currently, medication is often handed out to patients just in cut-out blisters with handwritten numbers. This approach is undignified and can exacerbate the situation for those affected. The Alli-Box aims to provide a more comprehensive packaging solution that includes important information for patients and supports medical professionals in their care.
-        <div className={styles.link}><a href="https://github.com/dinosled/alli-app" target="_blank" rel="noreferrer">Become a Box-Tester</a> </div>    
+        {/* <div className={styles.link}><a href="https://github.com/dinosled/alli-app" target="_blank" rel="noreferrer">Become a Box-Tester</a> </div>     */}
         </p>}
         image={<img src={products_img_3} alt="A turquoise box"/>}
         />

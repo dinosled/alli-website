@@ -1,0 +1,19 @@
+.footer {
+    padding: 24px;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    font-size: 16px;
+    font-family: 'Rubik Light';
+    border-bottom: 1px solid #FFA070;
+    padding-bottom: 4px;
+}
+
+.img{
+    height: 100px;
+    width: auto;
+}
