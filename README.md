@@ -1,43 +1,70 @@
-# alli-website
+# Getting Started with Create React App
 
-## Website
-[comment]: <> (all instructions can be found here: https://medium.com/@pablo.delvalle.cr/googles-firebase-for-simple-static-site-hosting-with-ssl-certificate-f0f001ffbf6f)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Setup
-__Buy URL__  
-- https://domains.google.com
+## Available Scripts
 
-__Deploy with Google Firebase__
-- Login to https://console.firebase.google.com/
-- Create project (Alli)
-- From your local machine, open a terminal and switch to the root directory of the github project
-- Install firebase CLI with `curl -sL https://firebase.tools | bash`
-- Run `firebase login` and authenticate with the google credentials you used above
-- Run `firebase init`, choose `Hosting: Configure files for Firebase Hosting ...` 
-- Use existing project -> alli-33a73
-- Public directory: .
-- Configure as single-page app: n
-- Setup automatic builds: n
-- index.html exists, Overwrite?: n
-- Run `firebase deploy` 
+In the project directory, you can run:
 
-__Associate bought URL with firebase deployment__
-- Login to https://console.firebase.google.com/
-- Build -> Hosting -> Add custom domain
-    - Enter domain: alli-app.com
-    - Verfiy Ownership: copy IP, go to https://domains.google.com/registrar/alli-app.com/dns -> Custom Records -> Type: A -> Data: Enter IP from above -> Save
+### `npm start`
 
-__Caching + DDoS prevention__
-- Login to https://dash.cloudflare.com/
-- Add a Site, follow instructions 
-    - This includes changing the nameserver from google to cloudflare
-- After the setup, caching and DDoS Prevention are automatically setup
-- Changes to the website will not be seen immediately after this. From the overview page, either
-    - "Purge Cache" or
-    - enable "Development Mode"
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Update
-- Open a terminal, switch to the root folder of the github repository
-- Install firebase CLI with `curl -sL https://firebase.tools | bash`
-- Run `firebase login` 
-- Run `firebase deploy`
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

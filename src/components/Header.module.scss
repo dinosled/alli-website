@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.title{
+    padding: 8px;
+    align-items: center;
+    display: flex;
+}
+
