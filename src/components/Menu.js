@@ -1,10 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
-import { useState } from 'react';
 import styles from "./Menu.module.scss"
+import Route from './Route';
 
-const Menu = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Menu = ({isMenuOpen, setIsMenuOpen}) => {
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen)
     }
@@ -17,16 +16,19 @@ const Menu = () => {
                         <FontAwesomeIcon className={styles.menuIcon} icon={faBars} aria-hidden="true" style={{ display: isMenuOpen ? "none" : "inline" }}/>
                 </button>
             </div>
-                <nav className={styles.menu} style={{ display: isMenuOpen ? "inline-block" : "none" }}>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/about">About us</a></li>
-                    {/* <li><a href="/insights">Informative Insights</a></li> */}
-                    {/* <li><a href="/participate">Get involved</a></li> */}
-                    {/* <li><a href="/contact">Contact & Imprint</a></li> */}
-                </ul>
-            </nav>
+            <div className={styles.menu} style={{ display: isMenuOpen ? "inline-block" : "none" }}>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/about">About us</a></li>
+                        {/* <li><a href="/insights">Informative Insights</a></li> */}
+                        {/* <li><a href="/participate">Get involved</a></li> */}
+                        {/* <li><a href="/contact">Contact & Imprint</a></li> */}
+                    </ul>
+                </nav>
+                <Route route="Menu"/>
+            </div>
         </div>
     )
 }

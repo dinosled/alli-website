@@ -2,7 +2,7 @@ import Layout from "../Layout";
 
 const Participate = () => {
     return(
-      <Layout>
+      <Layout route="Participate">
         <div>participate</div>
       </Layout>
     )

@@ -1,9 +1,15 @@
 .header {
     display: flex;
     flex-direction: row;
-    height: 56px;
+    height: 72px;
     justify-content: space-between;
     padding: 8px;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .title{

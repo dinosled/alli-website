@@ -2,7 +2,7 @@ import Layout from "../Layout";
 
 const Insights = () => {
     return(
-      <Layout>
+      <Layout route="Insights">
         <div>Insights</div>
       </Layout>
     )
