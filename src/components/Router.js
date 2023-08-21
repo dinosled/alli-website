@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 // import Insights from './pages/Insights';
 // import Participate from './pages/Participate';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 
 const Router = () => {
     return (
@@ -19,7 +19,7 @@ const Router = () => {
           <Route path="/about" element={<About/>}/>
           {/* <Route path="/insights" element={<Insights/>}/> */}
           {/* <Route path="/participate" element={<Participate/>}/> */}
-          {/* <Route path="/Contact" element={<Contact/>}/> */}
+          <Route path="/Contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     )

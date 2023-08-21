@@ -1,0 +1,29 @@
+.section {
+    h1{
+        font-size: 16px;
+        font-family: 'Rubik medium';
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
+
+.envelopeIcon{
+    font-size: 32px;
+    color: #FFA070;
+    padding-right: 8px;
+}
+
+.mailSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.link {
+    color: black;
+    text-decoration: underline black;
+}
