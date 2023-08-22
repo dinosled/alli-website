@@ -3,13 +3,14 @@
     margin-bottom: 56px;
 }
 
+
 .imgContainer{
     display: flex;
     justify-content: space-evenly;
 }
 .text{
-    font-size: 16px;
-    font-family: 'Rubik Light';
+    font-size: 16px !important;
+    font-family: 'Rubik Light' !important;
     border-bottom: 1px solid #FFA070;
     padding-bottom: 4px;
 }

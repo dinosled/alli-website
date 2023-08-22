@@ -6,6 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return(
+    <div className={styles.contact}>
     <Layout route="Contact & Imprint">
       <ContentSection>
         <p>Hello there! We're excited to receive your message and will do our best to get back to you as soon as possible. Please keep in mind that we are a small team, so it might take us a moment to respond. Thank you for your patience and understanding.</p>        
@@ -43,6 +44,7 @@ const Contact = () => {
         </div>
       </ContentSection>
     </Layout>
+    </div>
   )
 }
 

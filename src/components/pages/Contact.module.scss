@@ -1,4 +1,4 @@
-.section {
+.contact {
     h1{
         font-size: 16px;
         font-family: 'Rubik medium';
@@ -27,3 +27,16 @@
     color: black;
     text-decoration: underline black;
 }
+
+
+@media screen and (min-width: 768px) {
+    .contact {
+        p, h1, h2, a {
+            font-size: 20px;
+        }
+    }
+    .mailSection{
+        justify-content: center;
+    }
+ }
+ 

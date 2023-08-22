@@ -4,13 +4,38 @@
     align-items: center;
     vertical-align: bottom;
 }
+
 .logo {
-    height: 22px;
+    height: 30px;
     width: 22px;
-    margin-top: -12px;
 }
 
 .title {
     font-size: 24px;
     font-family: 'Rubik medium';
+}
+
+
+@media screen and (min-width: 768px) {
+    .alliTitleHome{
+        .logo{
+            height: 36px;
+            width: 28px;
+        }
+        .title{
+            font-size: 28px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .alliTitleHome{
+        .logo{
+            height: 40px;
+            width: 32px;
+        }
+        .title{
+            font-size: 32px;
+        }
+    }
 }
