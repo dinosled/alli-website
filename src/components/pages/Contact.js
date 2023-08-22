@@ -33,9 +33,9 @@ const Contact = () => {
           </p>
           <h1>Credits</h1>
           <h2>Graphics:</h2>
-          <p>We utilize illustrations from <a href="" aria-label="link to"  className={styles.link}>unDraw.co </a> and are incredibly grateful for the open-source illustrations they provide.</p>
+          <p>We utilize illustrations from <a href="https://undraw.co/" target="_blank" rel="noreferrer" aria-label="Link to "  className={styles.link}>unDraw.co </a> and are incredibly grateful for the open-source illustrations they provide.</p>
           <h2>Icons:</h2>
-          <p>The icons we use have been generously provided by Font Awesome, created by Dave Gandy - http://fontawesome.io.</p>
+          <p>The icons we use have been generously provided by Font Awesome, created by Dave Gandy - <a href="https://fontawesome.com/" aria-label="Link to " target="_blank" rel="noreferrer" className={styles.link}>fontawesome.com</a></p>
           <h1>Disclaimer</h1> 
           <p>We would like to point out that as the operator of this website, we cannot assume any responsibility for linked content or external links. The content of linked pages is the sole responsibility of their operators. At the time of linking, the linked pages were checked for possible illegal activity, and no unlawful content was identifiable. However, continuous monitoring of linked pages without specific indications of illegal activity is not reasonable. Upon becoming aware of any illegal activity, we will promptly remove such links.</p> 
           <h1>Copyright</h1> 
