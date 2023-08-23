@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AlliTitle from "./AlliTitle";
 import styles from "./Header.module.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -7,14 +7,41 @@ import Route from './Route';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    
+    const [isScrollingUp, setIsScrollingUp] = useState(false);
+    const prevScrollY = useRef(window.scrollY);
+    const ticking = useRef(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const currentScrollY = window.scrollY;
+        setIsScrollingUp(currentScrollY < prevScrollY.current);
+        prevScrollY.current = currentScrollY;
+      };
+  
+      const throttledHandleScroll = () => {
+        if (!ticking.current) {
+          requestAnimationFrame(() => {
+            handleScroll();
+            ticking.current = false;
+          });
+          ticking.current = true;
+        }
+      };
+  
+      window.addEventListener('scroll', throttledHandleScroll);
+      return () => {
+        window.removeEventListener('scroll', throttledHandleScroll);
+      };
+    }, []);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
-      }
+    }
 
     return (
         <>
-            <div className={styles.header} style={{ position: isMenuOpen && "fixed" }}>
+            <div className={styles.header} style={{ position: (isMenuOpen || isScrollingUp ) && "fixed" }}>
                 <div className={styles.title}>
                     <AlliTitle/>
                 </div>

@@ -7,11 +7,13 @@ export default function Layout({ children, route }) {
   return (
     <div>
       <Header />
+      <div className={styles.page}>
         <div className={styles.content}>
           {children}
         </div>
       <Route route={route}/>
       <Footer />
+      </div>
     </div>
   );
 }

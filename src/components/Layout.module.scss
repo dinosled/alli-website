@@ -7,11 +7,18 @@
     box-sizing: border-box;
 }
 
+.page {
+    top: 72px;
+    position: absolute;
+}
+
 @media screen and (min-width: 768px) {
     .content{
         padding-left: 20%;
         padding-right: 20%;
         text-align: center;
+        top: 0;
+        position: static;
     }
 }
 
