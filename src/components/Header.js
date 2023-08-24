@@ -4,8 +4,10 @@ import styles from "./Header.module.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
 import Route from './Route';
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+    const navigate = useNavigate();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     
     const [isScrollingUp, setIsScrollingUp] = useState(false);
@@ -55,10 +57,10 @@ const Header = () => {
             <div className={styles.menu} style={{ display: isMenuOpen ? "inline-block" : "none" }}>
                 <nav aria-label="Main menu">
                     <ul>
-                        <li><button aria-label="Go to Page: Home" onClick={()=>{window.location.href="/"}}>Home</button></li>
-                        <li><button aria-label="Go to Page: Projects" onClick={()=>{window.location.href="/projects"}}>Projects</button></li>
-                        <li><button aria-label="Go to Page: About us" onClick={()=>{window.location.href="/about"}}>About us</button></li>
-                        <li><button aria-label="Go to Page: Contact & Imprint" onClick={()=>{window.location.href="/contact"}}>Contact & Imprint</button></li>
+                        <li><button aria-label="Go to Page: Home" onClick={()=>{navigate("/")}}>Home</button></li>
+                        <li><button aria-label="Go to Page: Projects" onClick={()=>{navigate("/projects")}}>Projects</button></li>
+                        <li><button aria-label="Go to Page: About us" onClick={()=>{navigate("/about")}}>About us</button></li>
+                        <li><button aria-label="Go to Page: Contact & Imprint" onClick={()=>{navigate("/contact")}}>Contact & Imprint</button></li>
                     </ul>
                 </nav>
                 <Route route="Menu"/>
