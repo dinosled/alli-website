@@ -2,3 +2,4 @@
 .DS_Store
 .fire*
 node_modules
+build
