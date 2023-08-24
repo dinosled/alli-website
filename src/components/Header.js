@@ -41,26 +41,24 @@ const Header = () => {
 
     return (
         <>
-            <div className={styles.header} style={{ position: (isMenuOpen || isScrollingUp ) && "fixed" }}>
+            <header className={styles.header} style={{ position: (isMenuOpen || isScrollingUp ) && "fixed" }}>
                 <div className={styles.title}>
                     <AlliTitle/>
                 </div>
                 <div className={styles.burgerContainer}>
-                    <button onClick={toggleMenu} className={styles.burgerMenu} aria-label="Open the menu">
+                    <button onClick={toggleMenu} className={styles.burgerMenu} aria-expanded={isMenuOpen} aria-label={isMenuOpen ? "Close the menu" : "Open the menu"}>
                             <FontAwesomeIcon className={styles.menuIcon} icon={faX} aria-hidden="true" style={{ display: isMenuOpen ? "inline" : "none" }}/>
                             <FontAwesomeIcon className={styles.menuIcon} icon={faBars} aria-hidden="true" style={{ display: isMenuOpen ? "none" : "inline" }}/>
                     </button>
                 </div>  
-            </div>
+            </header>
             <div className={styles.menu} style={{ display: isMenuOpen ? "inline-block" : "none" }}>
-                <nav>
+                <nav aria-label="Main menu">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/about">About us</a></li>
-                        {/* <li><a href="/insights">Informative Insights</a></li> */}
-                        {/* <li><a href="/participate">Get involved</a></li> */}
-                        <li><a href="/contact">Contact & Imprint</a></li>
+                        <li><button aria-label="Go to Page: Home" onClick={()=>{window.location.href="/"}}>Home</button></li>
+                        <li><button aria-label="Go to Page: Projects" onClick={()=>{window.location.href="/projects"}}>Projects</button></li>
+                        <li><button aria-label="Go to Page: About us" onClick={()=>{window.location.href="/about"}}>About us</button></li>
+                        <li><button aria-label="Go to Page: Contact & Imprint" onClick={()=>{window.location.href="/contact"}}>Contact & Imprint</button></li>
                     </ul>
                 </nav>
                 <Route route="Menu"/>

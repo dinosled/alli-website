@@ -12,6 +12,15 @@
     position: absolute;
 }
 
+.srOnly {
+    position:absolute;
+    left:-10000px;
+    top: -10000px;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
 @media screen and (min-width: 768px) {
     .content{
         padding-left: 20%;

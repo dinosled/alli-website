@@ -39,8 +39,9 @@
             :hover {
                 box-shadow: inset 0px -8px  #C8E4DA;
             }
-            a{
-                text-decoration: none;
+            button{
+                border: none;
+                background-color: white;
                 color: black;
                 font-size: 24px;
                 font-family: 'Overpass Bold', sans-serif;
@@ -88,7 +89,7 @@
                 bottom: unset;
                 left: unset;
                 li{
-                    a{
+                    button{
                         font-size: 40px;
                     }
                 }

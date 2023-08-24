@@ -2,7 +2,7 @@ import styles from "./Route.module.scss";
 
 const Route = ({route}) => {
     return(
-        <div className={styles.banner}>
+        <div aria-hidden="true" className={styles.banner}>
             {route}
         </div>
     )

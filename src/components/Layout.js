@@ -6,9 +6,10 @@ import Route from "./Route";
 export default function Layout({ children, route }) {
   return (
     <div>
+      <a href="#main-content" className={styles.srOnly}>Skip to Content</a>
       <Header />
       <div className={styles.page}>
-        <div className={styles.content}>
+        <div id="main-content" className={styles.content}>
           {children}
         </div>
       <Route route={route}/>
