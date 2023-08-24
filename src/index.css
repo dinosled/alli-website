@@ -1,0 +1,42 @@
+/* overpass-medium */
+@font-face {
+  font-display: swap;
+  font-family: 'Overpass Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/Overpass-Medium.ttf') format('truetype');
+}
+
+/* overpass-light */
+@font-face {
+  font-display: swap;
+  font-family: 'Overpass Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/Overpass-Light.ttf') format('truetype');
+}
+
+
+/* overpass-bold */
+@font-face {
+  font-display: swap;
+  font-family: 'Overpass Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/Overpass-Bold.ttf') format('truetype');
+}
+
+/* overpass-black */
+@font-face {
+  font-display: swap;
+  font-family: 'Overpass Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/Overpass-Black.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Overpass Light', sans-serif;
+}
+

@@ -1,0 +1,42 @@
+.contact {
+    h1{
+        font-size: 16px;
+        font-family: 'Overpass Bold', sans-serif;
+    }
+    h2 {
+        font-size: 16px;
+    }
+}
+
+.envelopeIcon{
+    font-size: 32px;
+    color: #FFA070;
+    padding-right: 8px;
+}
+
+.mailSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.link {
+    color: black;
+    text-decoration: underline black;
+}
+
+
+@media screen and (min-width: 768px) {
+    .contact {
+        p, h1, h2, a {
+            font-size: 20px;
+        }
+    }
+    .mailSection{
+        justify-content: center;
+    }
+ }
+ 
