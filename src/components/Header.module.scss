@@ -6,6 +6,9 @@
     border: none;
     border-radius: 5px;
     background-color: #FFA070;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .menuIcon {
@@ -16,6 +19,16 @@
     padding: 8px; 
 }
 
+button{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    font-family: 'Overpass Bold', sans-serif;
+    :hover {
+        cursor: pointer;
+    }
+}
 .menu {
   position: fixed;
   top: 56px;
@@ -38,14 +51,9 @@
             list-style-type: none; 
             :hover {
                 box-shadow: inset 0px -8px  #C8E4DA;
+                cursor: pointer;
             }
-            button{
-                border: none;
-                background-color: white;
-                color: black;
-                font-size: 24px;
-                font-family: 'Overpass Bold', sans-serif;
-            }
+           
         }
     }
   }

@@ -6,9 +6,8 @@ import { faBars, faX } from '@fortawesome/free-solid-svg-icons'
 import Route from './Route';
 import { useNavigate } from "react-router-dom";
 
-const Header = () => {
+const Header = ({isMenuOpen, setIsMenuOpen}) => {
     const navigate = useNavigate();
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
     
     const [isScrollingUp, setIsScrollingUp] = useState(false);
     const prevScrollY = useRef(window.scrollY);
@@ -45,7 +44,7 @@ const Header = () => {
         <>
             <header className={styles.header} style={{ position: (isMenuOpen || isScrollingUp ) && "fixed" }}>
                 <div className={styles.title}>
-                    <AlliTitle/>
+                <button aria-label="Go to Page: Home" onClick={()=>{navigate("/");}}><AlliTitle/></button> 
                 </div>
                 <div className={styles.burgerContainer}>
                     <button onClick={toggleMenu} className={styles.burgerMenu} aria-expanded={isMenuOpen} aria-label={isMenuOpen ? "Close the menu" : "Open the menu"}>
@@ -57,10 +56,10 @@ const Header = () => {
             <div className={styles.menu} style={{ display: isMenuOpen ? "inline-block" : "none" }}>
                 <nav aria-label="Main menu">
                     <ul>
-                        <li><button aria-label="Go to Page: Home" onClick={()=>{navigate("/")}}>Home</button></li>
-                        <li><button aria-label="Go to Page: Projects" onClick={()=>{navigate("/projects")}}>Projects</button></li>
-                        <li><button aria-label="Go to Page: About us" onClick={()=>{navigate("/about")}}>About us</button></li>
-                        <li><button aria-label="Go to Page: Contact & Imprint" onClick={()=>{navigate("/contact")}}>Contact & Imprint</button></li>
+                        <li><button aria-label="Go to Page: Home" onClick={()=>{navigate("/"); toggleMenu()}}>Home</button></li>
+                        <li><button aria-label="Go to Page: Projects" onClick={()=>{navigate("/projects");toggleMenu()}}>Projects</button></li>
+                        <li><button aria-label="Go to Page: About us" onClick={()=>{navigate("/about"); toggleMenu()}}>About us</button></li>
+                        <li><button aria-label="Go to Page: Contact & Imprint" onClick={()=>{navigate("/contact"); toggleMenu()}}>Contact & Imprint</button></li>
                     </ul>
                 </nav>
                 <Route route="Menu"/>
