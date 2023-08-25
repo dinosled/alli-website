@@ -44,7 +44,7 @@ const Header = ({isMenuOpen, setIsMenuOpen}) => {
         <>
             <header className={styles.header} style={{ position: (isMenuOpen || isScrollingUp ) && "fixed" }}>
                 <div className={styles.title}>
-                <button aria-label="Go to Page: Home" onClick={()=>{navigate("/");}}><AlliTitle/></button> 
+                <button className={styles.alliButton} aria-label="Go to Page: Home" onClick={()=>{navigate("/");}}><AlliTitle/></button> 
                 </div>
                 <div className={styles.burgerContainer}>
                     <button onClick={toggleMenu} className={styles.burgerMenu} aria-expanded={isMenuOpen} aria-label={isMenuOpen ? "Close the menu" : "Open the menu"}>
