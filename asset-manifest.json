@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alli-website/static/css/main.5f4350b7.css",
+    "main.css": "/alli-website/static/css/main.9883df56.css",
     "main.js": "/alli-website/static/js/main.7102cc48.js",
     "static/js/787.50662f2c.chunk.js": "/alli-website/static/js/787.50662f2c.chunk.js",
     "static/media/Overpass-Light.ttf": "/alli-website/static/media/Overpass-Light.fbc55ea2c466a63ffc6f.ttf",
@@ -14,12 +14,12 @@
     "static/media/products_img_2.svg": "/alli-website/static/media/products_img_2.ee0a48651cebff03c81013c7e5d18ffc.svg",
     "index.html": "/alli-website/index.html",
     "static/media/alli-logo.svg": "/alli-website/static/media/alli-logo.a5f6988329918d7d1976d64c233d167e.svg",
-    "main.5f4350b7.css.map": "/alli-website/static/css/main.5f4350b7.css.map",
+    "main.9883df56.css.map": "/alli-website/static/css/main.9883df56.css.map",
     "main.7102cc48.js.map": "/alli-website/static/js/main.7102cc48.js.map",
     "787.50662f2c.chunk.js.map": "/alli-website/static/js/787.50662f2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f4350b7.css",
+    "static/css/main.9883df56.css",
     "static/js/main.7102cc48.js"
   ]
 }
