@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/alli-website/static/css/main.8ceec964.css",
-    "main.js": "/alli-website/static/js/main.7102cc48.js",
-    "static/js/787.50662f2c.chunk.js": "/alli-website/static/js/787.50662f2c.chunk.js",
-    "static/media/Overpass-Light.ttf": "/alli-website/static/media/Overpass-Light.fbc55ea2c466a63ffc6f.ttf",
-    "static/media/Overpass-Medium.ttf": "/alli-website/static/media/Overpass-Medium.a46b8d4aa3504103cdde.ttf",
-    "static/media/Overpass-Bold.ttf": "/alli-website/static/media/Overpass-Bold.b471ca5db1d8cda7853f.ttf",
-    "static/media/Overpass-Black.ttf": "/alli-website/static/media/Overpass-Black.443263a5fcc35b6d228e.ttf",
-    "static/media/logo_BMBF.svg": "/alli-website/static/media/logo_BMBF.fcbde611b487c7aedd85d264a47900ee.svg",
-    "static/media/products_img_1.svg": "/alli-website/static/media/products_img_1.e41ba7e95b91f1762f546903b39fe05d.svg",
-    "static/media/products_img_3.svg": "/alli-website/static/media/products_img_3.3c3f4df9a5f02d4947f241edbde666ce.svg",
-    "static/media/logo_prototypefund.svg": "/alli-website/static/media/logo_prototypefund.57ee6a4656a5f5c5ed555509651f45e7.svg",
-    "static/media/products_img_2.svg": "/alli-website/static/media/products_img_2.ee0a48651cebff03c81013c7e5d18ffc.svg",
-    "index.html": "/alli-website/index.html",
-    "static/media/alli-logo.svg": "/alli-website/static/media/alli-logo.a5f6988329918d7d1976d64c233d167e.svg",
-    "main.8ceec964.css.map": "/alli-website/static/css/main.8ceec964.css.map",
-    "main.7102cc48.js.map": "/alli-website/static/js/main.7102cc48.js.map",
-    "787.50662f2c.chunk.js.map": "/alli-website/static/js/787.50662f2c.chunk.js.map"
+    "main.css": "/static/css/main.f2b421b4.css",
+    "main.js": "/static/js/main.33f4af40.js",
+    "static/js/787.50662f2c.chunk.js": "/static/js/787.50662f2c.chunk.js",
+    "static/media/Overpass-Light.ttf": "/static/media/Overpass-Light.fbc55ea2c466a63ffc6f.ttf",
+    "static/media/Overpass-Medium.ttf": "/static/media/Overpass-Medium.a46b8d4aa3504103cdde.ttf",
+    "static/media/Overpass-Bold.ttf": "/static/media/Overpass-Bold.b471ca5db1d8cda7853f.ttf",
+    "static/media/Overpass-Black.ttf": "/static/media/Overpass-Black.443263a5fcc35b6d228e.ttf",
+    "static/media/logo_BMBF.svg": "/static/media/logo_BMBF.fcbde611b487c7aedd85d264a47900ee.svg",
+    "static/media/products_img_1.svg": "/static/media/products_img_1.e41ba7e95b91f1762f546903b39fe05d.svg",
+    "static/media/products_img_3.svg": "/static/media/products_img_3.3c3f4df9a5f02d4947f241edbde666ce.svg",
+    "static/media/logo_prototypefund.svg": "/static/media/logo_prototypefund.57ee6a4656a5f5c5ed555509651f45e7.svg",
+    "static/media/products_img_2.svg": "/static/media/products_img_2.ee0a48651cebff03c81013c7e5d18ffc.svg",
+    "index.html": "/index.html",
+    "static/media/alli-logo.svg": "/static/media/alli-logo.a5f6988329918d7d1976d64c233d167e.svg",
+    "main.f2b421b4.css.map": "/static/css/main.f2b421b4.css.map",
+    "main.33f4af40.js.map": "/static/js/main.33f4af40.js.map",
+    "787.50662f2c.chunk.js.map": "/static/js/787.50662f2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ceec964.css",
-    "static/js/main.7102cc48.js"
+    "static/css/main.f2b421b4.css",
+    "static/js/main.33f4af40.js"
   ]
 }
