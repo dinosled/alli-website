@@ -59,6 +59,7 @@ const Header = ({isMenuOpen, setIsMenuOpen}) => {
                         <li><button aria-label="Go to Page: Home" onClick={()=>{navigate("/"); toggleMenu()}}>Home</button></li>
                         <li><button aria-label="Go to Page: Projects" onClick={()=>{navigate("/projects");toggleMenu()}}>Projects</button></li>
                         <li><button aria-label="Go to Page: About us" onClick={()=>{navigate("/about"); toggleMenu()}}>About us</button></li>
+                        <li><button aria-label="Go to Page: Jobs" onClick={()=>{navigate("/jobs"); toggleMenu()}}>Jobs</button></li>
                         <li><button aria-label="Go to Page: Contact & Imprint" onClick={()=>{navigate("/contact"); toggleMenu()}}>Contact & Imprint</button></li>
                     </ul>
                 </nav>

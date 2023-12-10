@@ -1,0 +1,60 @@
+.jobs h3 {
+  text-align: left;
+  align-self: flex-start;
+}
+.jobs ul {
+  text-align: left;
+  margin-left: 16px;
+  align-self: flex-start;
+}
+.link {
+  color: black;
+  text-decoration: underline black;
+}
+
+.jobs h1,
+.jobs h2,
+.jobs h3,
+.jobs p {
+  text-align: left;
+  align-self: flex-start;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Overpass Bold", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Overpass Bold", sans-serif;
+}
+h3 {
+  font-size: 16px;
+  font-family: "Overpass Bold", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs h1,
+  .jobs h2,
+  .jobs p {
+    text-align: unset;
+    align-self: unset;
+  }
+
+  p,
+  h3,
+  li {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-family: unset;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-family: unset;
+  }
+}
