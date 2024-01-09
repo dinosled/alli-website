@@ -1,8 +1,8 @@
-.jobs h3 {
+.getInvolved h3 {
   text-align: left;
   align-self: flex-start;
 }
-.jobs ul {
+.getInvolved ul {
   text-align: left;
   margin-left: 16px;
   align-self: flex-start;
@@ -12,10 +12,10 @@
   text-decoration: underline black;
 }
 
-.jobs h1,
-.jobs h2,
-.jobs h3,
-.jobs p {
+.getInvolved h1,
+.getInvolved h2,
+.getInvolved h3,
+.getInvolved p {
   text-align: left;
   align-self: flex-start;
 }
@@ -35,9 +35,9 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
-  .jobs h1,
-  .jobs h2,
-  .jobs p {
+  .getInvolved h1,
+  .getInvolved h2,
+  .getInvolved p {
     text-align: unset;
     align-self: unset;
   }

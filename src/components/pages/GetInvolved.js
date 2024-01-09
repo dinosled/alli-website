@@ -1,11 +1,11 @@
 import ContentSection from "../ContentSection";
 import Layout from "../Layout";
-import styles from "./Jobs.module.scss";
+import styles from "./GetInvolved.module.scss";
 
-const Jobs = () => {
+const GetInvolved = () => {
   return (
-    <div className={styles.jobs}>
-      <Layout route="Jobs">
+    <div className={styles.getInvolved}>
+      <Layout route="GetInvolved">
         <ContentSection>
           <h1>Software-Entwickler*in für Projekt “Alli App” gesucht</h1>
           <p>zum frühestmöglichen Zeitpunkt</p>
@@ -72,7 +72,11 @@ const Jobs = () => {
             </ul>
             <li>
               ggf. wenn Interesse: organisatorische Aufgaben, Unterstützung bei
-              Beantragung/ Bewerbung von Fördermitteln.{" "}
+              Beantragung/ Bewerbung von Fördermitteln{" "}
+            </li>
+            <li>
+              ggf. wenn Interesse: Weiterentwicklung des Designs und Entwurfs in
+              Figma{" "}
             </li>
           </ul>
           <h3>Vorraussetzungen</h3>
@@ -81,6 +85,7 @@ const Jobs = () => {
               Programmiererfahrung, idealerweise im Bereich App Development
             </li>
             <li> Erfahrung mit unserem Tech Stack ist wünschenswert </li>
+            <li> Erfahrung im Bereich UI/UX Design ist wünschenswert </li>
           </ul>
         </ContentSection>
         <ContentSection>
@@ -121,4 +126,4 @@ const Jobs = () => {
   );
 };
 
-export default Jobs;
+export default GetInvolved;
