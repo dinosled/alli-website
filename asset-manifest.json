@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.496d4797.css",
-    "main.js": "/static/js/main.1ceffe25.js",
+    "main.css": "/static/css/main.18773299.css",
+    "main.js": "/static/js/main.3f145794.js",
     "static/js/787.50662f2c.chunk.js": "/static/js/787.50662f2c.chunk.js",
     "static/media/Overpass-Light.ttf": "/static/media/Overpass-Light.fbc55ea2c466a63ffc6f.ttf",
     "static/media/Overpass-Medium.ttf": "/static/media/Overpass-Medium.a46b8d4aa3504103cdde.ttf",
@@ -14,12 +14,12 @@
     "static/media/products_img_2.svg": "/static/media/products_img_2.ee0a48651cebff03c81013c7e5d18ffc.svg",
     "index.html": "/index.html",
     "static/media/alli-logo.svg": "/static/media/alli-logo.a5f6988329918d7d1976d64c233d167e.svg",
-    "main.496d4797.css.map": "/static/css/main.496d4797.css.map",
-    "main.1ceffe25.js.map": "/static/js/main.1ceffe25.js.map",
+    "main.18773299.css.map": "/static/css/main.18773299.css.map",
+    "main.3f145794.js.map": "/static/js/main.3f145794.js.map",
     "787.50662f2c.chunk.js.map": "/static/js/787.50662f2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.496d4797.css",
-    "static/js/main.1ceffe25.js"
+    "static/css/main.18773299.css",
+    "static/js/main.3f145794.js"
   ]
 }
