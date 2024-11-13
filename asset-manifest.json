@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.18773299.css",
-    "main.js": "/static/js/main.b5609c56.js",
+    "main.js": "/static/js/main.fb97ea76.js",
     "static/js/787.50662f2c.chunk.js": "/static/js/787.50662f2c.chunk.js",
     "static/media/Overpass-Light.ttf": "/static/media/Overpass-Light.fbc55ea2c466a63ffc6f.ttf",
     "static/media/Overpass-Medium.ttf": "/static/media/Overpass-Medium.a46b8d4aa3504103cdde.ttf",
@@ -15,11 +15,11 @@
     "index.html": "/index.html",
     "static/media/alli-logo.svg": "/static/media/alli-logo.a5f6988329918d7d1976d64c233d167e.svg",
     "main.18773299.css.map": "/static/css/main.18773299.css.map",
-    "main.b5609c56.js.map": "/static/js/main.b5609c56.js.map",
+    "main.fb97ea76.js.map": "/static/js/main.fb97ea76.js.map",
     "787.50662f2c.chunk.js.map": "/static/js/787.50662f2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18773299.css",
-    "static/js/main.b5609c56.js"
+    "static/js/main.fb97ea76.js"
   ]
 }
