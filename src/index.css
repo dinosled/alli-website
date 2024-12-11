@@ -38,6 +38,6 @@
 body {
   margin: 0;
   font-family: 'Overpass Light', sans-serif;
-  color: black;
+  color: light-dark(--core-text);
 }
 

@@ -2,13 +2,15 @@
   text-align: left;
   align-self: flex-start;
 }
+
 .getInvolved ul {
   text-align: left;
   margin-left: 16px;
   align-self: flex-start;
 }
+
 .link {
-  color: black;
+  color: light-dark(--core-text);
   text-decoration: underline black;
 }
 

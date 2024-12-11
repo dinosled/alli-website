@@ -14,6 +14,7 @@
 
 .menuIcon {
     font-size: 20px;
+    color: light-dark();
 }
 
 .burgerContainer{
@@ -49,7 +50,7 @@
             list-style-type: none; 
             button{
                 border: none;
-                color: black;
+                color: light-dark(--core-text);
                 font-size: 24px;
                 font-family: 'Overpass Bold', sans-serif;
             }

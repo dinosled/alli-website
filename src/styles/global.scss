@@ -1,19 +1,18 @@
 :root {
-    color-scheme: light-dark;
+    color-scheme: light dark;
     --core-primary: light-dark(#FCDB05, #FDE237); // yellow
-    --core-secondary: light-dark(#09212B, #BDE1F1); //black and light blue
-    --core-tertiary: light-dark(#FCFEFE, #040F14);
 
     --core-green: light-dark(#37B77A, #59CD90);
     --core-red: #EE6352;
-    --core-text: light-dark(#040F14, #FCFEFE);
     
     --lightest-blue: #E7F4FA;
-    --light-blue: #93CEE8;
+    --light-blue: #BDE1F1;
     --medium-blue: #5DA5D1;
     --dark-blue: #1D6788;
     --darkest-blue: #040F14;
     
+    --core-text: light-dark(var(--darkest-blue), #FCFEFE);
+
     --core-strong-contrast: light-dark(var(--dark-blue), var(--light-blue));
     --core-light-contrast: light-dark(var(--lightest-blue), var(--darkest-blue));
 
@@ -21,7 +20,8 @@
 }
 
 * {
-    background-color: var(--background-duotone)
+    color: light-dark(--core-text);
+    background-color: var(--background-duotone);
 }
 
 .emphasized {
