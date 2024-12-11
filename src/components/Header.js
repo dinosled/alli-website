@@ -131,6 +131,17 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
+                aria-label="Go to Page: Feedback"
+                onClick={() => {
+                  navigate("/feedback");
+                  toggleMenu();
+                }}
+              >
+                Feedback
+              </button>
+            </li>
+            <li>
+              <button
                 aria-label="Go to Page: Contact"
                 onClick={() => {
                   navigate("/contact");

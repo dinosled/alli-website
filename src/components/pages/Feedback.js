@@ -8,7 +8,7 @@ const Feedback = () => {
         <Layout route="Feedback">
             <ContentSection>
             <h1>Feedback</h1>
-                <p></p>
+                <p>Bei Fragen, Feedback oder Verbesserungsvorschlägen zur App freuen wir uns über eine Mail an <a href="mailto:team@alli-app.com" aria-label="Send us a mail" className={styles.mailSection}>team@alli-app.com</a>. Ebenfalls sind wir über jede Rückmeldungen, falls es während der Benutzung der App zu Fehlermeldungen oder Ähnliches gekommen sein sollte (am besten mit Screenshot und Angabe des Betriebssystems).</p>
             </ContentSection>
         </Layout>
         </div>
