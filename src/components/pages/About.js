@@ -5,7 +5,7 @@ import styles from "./About.module.scss"
 const About = () => {
   return (
     <div className={styles.about}>
-      <Layout route="About us">
+      <Layout route="Über uns">
         <ContentSection>
           <h1>Über uns</h1>
           <p>Wir bei Alli sind überzeugt davon, dass alle Personen, die schwanger werden können, Zugang zu medizinisch korrekten Informationen, die kostenlos und leicht zugänglich sind, und eine empathische Unterstützung in Bezug auf Schwangerschaftsoptionen haben sollten. Aus diesem Grund schloss sich 2022 ein interdisziplinäres Team aus Medizin, Design und Softwareentwicklung zusammen, um mit der Entwicklung eines Prototypen zu beginnen.</p>

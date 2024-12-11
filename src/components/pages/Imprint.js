@@ -5,7 +5,7 @@ import ContentSection from "../ContentSection";
 const Imprint = () => {
     return(
         <div className={styles.aboutAlli}>
-        <Layout route="Imprint">
+        <Layout route="Impressum">
             <ContentSection>
             <div className={styles.section}>
                 <h1>Imprint</h1>

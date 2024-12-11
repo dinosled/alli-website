@@ -8,7 +8,7 @@ import ContentSection from "../ContentSection";
 const AboutAlli = () => {
     return(
         <div className={styles.aboutAlli}>
-        <Layout route="About Alli">
+        <Layout route="Über Alli">
             <ContentSection>
             <h1>Über Alli</h1>
                 <p>In Deutschland gibt es ungefähr 100.000 Schwangerschaftsabbrüche und ungefähr ebenso viele Fehlgeburten. Obwohl sie häufig stattfinden, sind die Themen in der Gesellschaft immer noch stark tabuisiert. Es wird wenig öffentlich darüber gesprochen und aufgeklärt. Im Internet kursieren eine Menge an Mythen und Falschinformationen. Es ist daher nicht immer leicht, an medizinisch korrekte und wertneutrale Informationen zu kommen. Alli soll diese Lücke füllen: wissenschaftlich fundierte Informationen treffen auf eine empathische, personalisierte Wegbegleitung. Mit Alli wollen wir Betroffenen und medizinisches Fachpersonal unterstützen, indem wir ihnen ein digitales Hilfsmittel zur Verfügung stellen.</p>

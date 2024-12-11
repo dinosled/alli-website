@@ -6,7 +6,7 @@ import styles from "./Home.module.scss"
 const Home = () => {
     return(
         <div className={styles.home}>
-        <Layout route="Home">
+        <Layout route="Startseite">
             <ContentSection>
                 <p><AlliTitle className={"alliTitleHome"}/> ist Deine digitale Begleitung für die medi&shy;kamen&shy;töse Schwanger&shy;schafts&shy;beendigung. Sie führt Dich <em className={styles.emphasized}>sicher</em>, <em className={styles.emphasized}>klar</em> und <em className={styles.emphasized}>verlässlich</em> Schritt für Schritt durch den Prozess und fasst alle wichtigen, notwendigen Informationen zusammen.</p>
                 <p>

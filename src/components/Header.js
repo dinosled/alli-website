@@ -87,17 +87,6 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
           <ul>
             <li>
               <button
-                aria-label="Go to Page: Home"
-                onClick={() => {
-                  navigate("/");
-                  toggleMenu();
-                }}
-              >
-                Startseite
-              </button>
-            </li>
-            <li>
-              <button
                 aria-label="Go to Page: About Alli"
                 onClick={() => {
                   navigate("/about-alli");

@@ -5,7 +5,7 @@ import styles from "./SupportUs.module.scss";
 const SupportUs = () => {
   return (
     <div className={styles.supportUs}>
-      <Layout route="SupportUs">
+      <Layout route="Unterstützen">
         <ContentSection>
           <h1>Spenden</h1>
           <p>Alli ist und bleibt eine kostenfreie App und ist somit auf Spenden angewiesen. Eine App zu betreiben, kostet Zeit und Geld. Zudem sind weitere Aktualisierungen und Verbesserungen von Alli im Laufe der Zeit geplant. 
