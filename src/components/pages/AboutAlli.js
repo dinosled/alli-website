@@ -2,13 +2,13 @@ import Layout from "../Layout";
 import products_img_1 from '../../assets/images/products_img_1.svg';
 import products_img_2 from '../../assets/images/products_img_2.svg';
 import products_img_3 from '../../assets/images/products_img_3.svg';
-import styles from "./Projects.module.scss";
+import styles from "./AboutAlli.module.scss";
 import ContentSection from "../ContentSection";
 
-const Projects = () => {
+const AboutAlli = () => {
     return(
-        <div className={styles.projects}>
-        <Layout route="Projects">
+        <div className={styles.aboutAlli}>
+        <Layout route="About Alli">
             <h1>Über Alli</h1>
             <ContentSection>
                 <p>
@@ -46,4 +46,4 @@ const Projects = () => {
         </div>
     )
 }
-export default Projects
+export default AboutAlli

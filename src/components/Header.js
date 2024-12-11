@@ -98,13 +98,13 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Go to Page: Projects"
+                aria-label="Go to Page: About Alli"
                 onClick={() => {
-                  navigate("/projects");
+                  navigate("/about-alli");
                   toggleMenu();
                 }}
               >
-                Projects
+                About Alli
               </button>
             </li>
             <li>
