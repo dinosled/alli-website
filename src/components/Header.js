@@ -120,6 +120,17 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
+                aria-label="Go to Page: Information for Qualified Personnel"
+                onClick={() => {
+                  navigate("/information-for-qualified-personnel");
+                  toggleMenu();
+                }}
+              >
+                Informationen für Fachkreise
+              </button>
+            </li>
+            <li>
+              <button
                 aria-label="Go to Page: Feedback"
                 onClick={() => {
                   navigate("/feedback");

@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Imprint from "./pages/Imprint";
 import SupportUs from "./pages/SupportUs";
 import Feedback from "./pages/Feedback";
+import Information from "./pages/InformationQualifiedPersonell";
 
 const Router = () => {
   return (
@@ -15,6 +16,7 @@ const Router = () => {
         <Route path="/about-alli" element={<AboutAlli />} />
         <Route path="/about" element={<About />} />
         <Route path="/support-us" element={<SupportUs />} />
+        <Route path="/information-for-qualified-personnel" element={<Information />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/imprint" element={<Imprint />} />
