@@ -93,7 +93,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
                   toggleMenu();
                 }}
               >
-                Home
+                Startseite
               </button>
             </li>
             <li>
@@ -104,7 +104,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
                   toggleMenu();
                 }}
               >
-                About Alli
+                Über Alli
               </button>
             </li>
             <li>
@@ -115,29 +115,40 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
                   toggleMenu();
                 }}
               >
-                About us
+                Über uns
               </button>
             </li>
             <li>
               <button
-                aria-label="Go to Page: Get involved"
+                aria-label="Go to Page: Support us"
                 onClick={() => {
-                  navigate("/get-involved");
+                  navigate("/support-us");
                   toggleMenu();
                 }}
               >
-                Get involved
+                Unterstützen
               </button>
             </li>
             <li>
               <button
-                aria-label="Go to Page: Contact & Imprint"
+                aria-label="Go to Page: Contact"
                 onClick={() => {
                   navigate("/contact");
                   toggleMenu();
                 }}
               >
-                Contact & Imprint
+                Kontakt
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Go to Page: Imprint"
+                onClick={() => {
+                  navigate("/imprint");
+                  toggleMenu();
+                }}
+              >
+                Impressum
               </button>
             </li>
           </ul>
