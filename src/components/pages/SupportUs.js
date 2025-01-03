@@ -8,8 +8,9 @@ const SupportUs = () => {
       <Layout route="Unterstützen">
         <ContentSection>
           <h1>Spenden</h1>
-          <p>Alli ist und bleibt eine kostenfreie App und ist somit auf Spenden angewiesen. Eine App zu betreiben, kostet Zeit und Geld. Zudem sind weitere Aktualisierungen und Verbesserungen von Alli im Laufe der Zeit geplant. 
+          <p>Alli ist und bleibt eine kostenfreie App und ist somit auf Spenden angewiesen. Eine App zu betreiben, kostet Zeit und Geld. Zudem sind weitere Aktualisierungen und Verbesserungen von Alli im Laufe der Zeit geplant.
           Eine Spende hilft uns, laufende Betriebskosten der App zu decken, weitere App-Funktionen zu entwickeln, Design & Softwarentwicklung in Auftrag zu geben, im Rahmen von Fort- und Weiterbildungen sowie unserer Öffentlichkeitsarbeit die App bekannter zu machen und an alle Betroffenen heranzutragen.</p>
+          <p><a href="https://spenden.twingle.de/doctors-for-choice-germany-e-v/spende/tw5f107dd43e6cc/page" target="_blank" rel="noreferrer">Zum Spendeformular</a></p>
         </ContentSection>
         <ContentSection>
           <h1>Aktive Unterstützung</h1>
