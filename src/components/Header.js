@@ -126,7 +126,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
                   toggleMenu();
                 }}
               >
-                Informationen für Fachkreise
+                Für Fachkreise
               </button>
             </li>
             <li>
