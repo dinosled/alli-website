@@ -28,35 +28,6 @@
     text-decoration: underline black;
 }
 
-form {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 1em;
-    width: 100%;
-
-    label {
-        text-align: right;
-        padding: 0.5em;
-    }
-
-    input, textarea, button {
-        padding: 0.5em;
-        border-radius: 0.5em;
-        background-color: light-dark(#fffe, #fff3);
-        font-size: inherit;
-    }
-
-    textarea {
-        min-height: 8em;
-        font-family: inherit;
-        font-size: inherit;
-    }
-
-    button {
-        grid-column: 2;
-        background-color: var(--medium-blue);
-    }
-}
 
 @media screen and (min-width: 768px) {
     .contact {
@@ -67,4 +38,5 @@ form {
     .mailSection{
         justify-content: center;
     }
-}
+ }
+ 

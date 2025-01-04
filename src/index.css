@@ -41,11 +41,3 @@ body {
   color: light-dark(--core-text);
 }
 
-ul {
-  li {
-    /* text-align: left; */
-    list-style-type: none;
-    padding: 1em 0;
-  }
-}
-

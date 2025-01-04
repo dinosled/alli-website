@@ -87,13 +87,24 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
           <ul>
             <li>
               <button
-                aria-label="Go to Page: About Alli"
+                aria-label="Go to Page: Home"
                 onClick={() => {
-                  navigate("/about-alli");
+                  navigate("/");
                   toggleMenu();
                 }}
               >
-                Über Alli
+                Home
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Go to Page: Projects"
+                onClick={() => {
+                  navigate("/projects");
+                  toggleMenu();
+                }}
+              >
+                Projects
               </button>
             </li>
             <li>
@@ -104,62 +115,29 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
                   toggleMenu();
                 }}
               >
-                Über uns
+                About us
               </button>
             </li>
             <li>
               <button
-                aria-label="Go to Page: Support us"
+                aria-label="Go to Page: Get involved"
                 onClick={() => {
-                  navigate("/support-us");
+                  navigate("/get-involved");
                   toggleMenu();
                 }}
               >
-                Unterstützen
+                Get involved
               </button>
             </li>
             <li>
               <button
-                aria-label="Go to Page: Information for Qualified Personnel"
-                onClick={() => {
-                  navigate("/information-for-qualified-personnel");
-                  toggleMenu();
-                }}
-              >
-                Für Fachkreise
-              </button>
-            </li>
-            <li>
-              <button
-                aria-label="Go to Page: Feedback"
-                onClick={() => {
-                  navigate("/feedback");
-                  toggleMenu();
-                }}
-              >
-                Feedback
-              </button>
-            </li>
-            <li>
-              <button
-                aria-label="Go to Page: Contact"
+                aria-label="Go to Page: Contact & Imprint"
                 onClick={() => {
                   navigate("/contact");
                   toggleMenu();
                 }}
               >
-                Kontakt
-              </button>
-            </li>
-            <li>
-              <button
-                aria-label="Go to Page: Imprint"
-                onClick={() => {
-                  navigate("/imprint");
-                  toggleMenu();
-                }}
-              >
-                Impressum
+                Contact & Imprint
               </button>
             </li>
           </ul>
