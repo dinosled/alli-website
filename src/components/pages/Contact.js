@@ -4,6 +4,7 @@ import styles from "./Contact.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import { submitContactFormAsEmail } from "../../helper/helper";
 
 
 
@@ -21,12 +22,17 @@ const Contact = () => {
       ...form,
       [name]: value
     })
-    console.log(form)
   }
 
-  const onSubmit = (event) => {
+  const onSubmit = async (event) => {
     event.preventDefault()
-    console.log(form)
+    try {
+      const sentEmail = await submitContactFormAsEmail(form)
+      console.log(sentEmail.ok)
+    } catch (error) {
+      console.error(error.message)
+      return
+    }
   }
 
   return (
@@ -41,7 +47,7 @@ const Contact = () => {
           </p>
           </ContentSection>
           <ContentSection>
-            <form onInput={onInput}>
+            <form onInput={onInput} onSubmit={onSubmit}>
               <label>Your name</label>
               <input type="text" name="name" defaultValue={form.name} required/>
               <label>Your e-Mail</label>
