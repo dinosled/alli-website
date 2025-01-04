@@ -8,13 +8,12 @@ const Imprint = () => {
         <Layout route="Impressum">
             <ContentSection>
             <div className={styles.section}>
-                <h1>Imprint</h1>
-                <p>Maeffert, Schuster, Nikitenko & Kühn GbR</p>
+                <h1>Impressum</h1>
                 <p>
-                Doctors for Choice Germany e.V. Franz-Ehrlich-Str. 12 12489 Berlin
+                Doctors for Choice Germany e.V. – Franz-Ehrlich-Str. 12, 12489 Berlin
                 </p>
                 <h1>Credits</h1>
-                <h2>Graphics:</h2>
+                {/* <h2>Graphics:</h2>
                 <p>
                 We utilize illustrations from{" "}
                 <a
@@ -28,10 +27,10 @@ const Imprint = () => {
                 </a>{" "}
                 and are incredibly grateful for the open-source illustrations they
                 provide.
-                </p>
+                </p> */}
                 <h2>Icons:</h2>
                 <p>
-                The icons we use have been generously provided by Font Awesome,
+                Wir benutzen Icons von Font Awesome,
                 created by Dave Gandy -{" "}
                 <a
                     href="https://fontawesome.com/"
