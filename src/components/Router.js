@@ -16,7 +16,7 @@ const Router = () => {
         <Route path="/about-alli" element={<AboutAlli />} />
         <Route path="/about" element={<About />} />
         <Route path="/support-us" element={<SupportUs />} />
-        <Route path="/information-for-qualified-personnel" element={<Information />} />
+        <Route path="/for-doctors" element={<Information />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/imprint" element={<Imprint />} />

@@ -122,7 +122,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
               <button
                 aria-label="Zur Seite: Für Fachpersonal"
                 onClick={() => {
-                  navigate("/information-for-qualified-personnel");
+                  navigate("/for-doctors");
                   toggleMenu();
                 }}
               >
