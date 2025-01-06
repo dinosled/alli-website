@@ -1,7 +1,4 @@
 import Layout from "../Layout";
-import products_img_1 from '../../assets/images/products_img_1.svg';
-import products_img_2 from '../../assets/images/products_img_2.svg';
-import products_img_3 from '../../assets/images/products_img_3.svg';
 import styles from "./AboutAlli.module.scss";
 import ContentSection from "../ContentSection";
 
