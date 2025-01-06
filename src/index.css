@@ -45,7 +45,7 @@ ul {
   li {
     /* text-align: left; */
     list-style-type: none;
-    padding: 1em 0;
+    padding: 0.5em 0;
   }
 }
 
