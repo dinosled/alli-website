@@ -89,11 +89,11 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
               <button
                 aria-label="Zur Seite: Über Alli"
                 onClick={() => {
-                  navigate("/about-alli");
+                  navigate("/projects");
                   toggleMenu();
                 }}
               >
-                Über Alli
+                Projects
               </button>
             </li>
             <li>
@@ -104,18 +104,18 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
                   toggleMenu();
                 }}
               >
-                Über uns
+                About us
               </button>
             </li>
             <li>
               <button
                 aria-label="Zur Seite: Unterstützung"
                 onClick={() => {
-                  navigate("/support-us");
+                  navigate("/get-involved");
                   toggleMenu();
                 }}
               >
-                Unterstützen
+                Get involved
               </button>
             </li>
             <li>

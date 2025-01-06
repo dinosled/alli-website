@@ -9,11 +9,14 @@ import AppStoreButton from "../../assets/images/AppStoreButton.svg"
 const Home = () => {
     return(
         <div className={styles.home}>
-        <Layout route="Startseite">
+        <Layout route="Home">
             <ContentSection>
                 <p><AlliTitle className={"alliTitleHome"}/> ist Deine digitale Begleitung für die medi&shy;kamen&shy;töse Schwanger&shy;schafts&shy;beendigung. Sie führt Dich <em className={styles.emphasized}>sicher</em>, <em className={styles.emphasized}>klar</em> und <em className={styles.emphasized}>verlässlich</em> Schritt für Schritt durch den Prozess und fasst alle wichtigen, notwendigen Informationen zusammen.</p>
+<<<<<<< HEAD
             </ContentSection>
             <ContentSection>
+=======
+>>>>>>> master
                 <h2>
                 Das bietet Alli:
                 </h2>
@@ -28,6 +31,7 @@ const Home = () => {
                         <b>Datensicher:</b> Deine Daten werden lokal auf dem Gerät gespeichert und nicht weitergegeben.
                     </li>
                 </ul>
+<<<<<<< HEAD
             </ContentSection>
             <ContentSection>
                 <h2>Download</h2>
@@ -46,6 +50,8 @@ const Home = () => {
                         />
                     </a>
                 </div>
+=======
+>>>>>>> master
             </ContentSection>
         </Layout>
         </div>
