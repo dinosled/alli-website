@@ -87,18 +87,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
           <ul>
             <li>
               <button
-                aria-label="Go to Page: Home"
-                onClick={() => {
-                  navigate("/");
-                  toggleMenu();
-                }}
-              >
-                Home
-              </button>
-            </li>
-            <li>
-              <button
-                aria-label="Go to Page: Projects"
+                aria-label="Zur Seite: Über Alli"
                 onClick={() => {
                   navigate("/projects");
                   toggleMenu();
@@ -109,7 +98,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Go to Page: About us"
+                aria-label="Zur Seite: Über uns"
                 onClick={() => {
                   navigate("/about");
                   toggleMenu();
@@ -120,7 +109,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Go to Page: Get involved"
+                aria-label="Zur Seite: Unterstützung"
                 onClick={() => {
                   navigate("/get-involved");
                   toggleMenu();
@@ -131,13 +120,46 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Go to Page: Contact & Imprint"
+                aria-label="Zur Seite: Für Fachpersonal"
+                onClick={() => {
+                  navigate("/for-doctors");
+                  toggleMenu();
+                }}
+              >
+                Für Fachkreise
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Zur Seite: Feedback"
+                onClick={() => {
+                  navigate("/feedback");
+                  toggleMenu();
+                }}
+              >
+                Feedback
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Zur Seite: Kontakt"
                 onClick={() => {
                   navigate("/contact");
                   toggleMenu();
                 }}
               >
-                Contact & Imprint
+                Kontakt
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Zur Seite: Impressum"
+                onClick={() => {
+                  navigate("/imprint");
+                  toggleMenu();
+                }}
+              >
+                Impressum
               </button>
             </li>
           </ul>
