@@ -1,0 +1,18 @@
+@import '../../styles/global.scss';
+
+.illustration {
+    height: 160px;
+    width: auto;
+
+}
+
+@media screen and (min-width: 768px) {
+    .aboutAlli p {
+         font-size: 20px;
+    }
+    .illustration {
+        height: 180px;
+        width: auto;
+    }
+ }
+ 

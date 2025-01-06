@@ -41,3 +41,11 @@ body {
   color: light-dark(--core-text);
 }
 
+ul {
+  padding: inherit;
+  li {
+    /* text-align: left; */
+    list-style-type: none;
+    padding: 0.25em 0;
+  }
+}
