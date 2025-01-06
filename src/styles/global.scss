@@ -1,6 +1,32 @@
+:root {
+    color-scheme: light dark;
+    --core-primary: light-dark(#FCDB05, #FDE237); // yellow
+
+    --core-green: light-dark(#37B77A, #59CD90);
+    --core-red: #EE6352;
+    
+    --lightest-blue: #E7F4FA;
+    --light-blue: #BDE1F1;
+    --medium-blue: #5DA5D1;
+    --dark-blue: #1D6788;
+    --darkest-blue: #040F14;
+    
+    --core-text: light-dark(var(--darkest-blue), #FCFEFE);
+
+    --core-strong-contrast: light-dark(var(--dark-blue), var(--light-blue));
+    --core-light-contrast: light-dark(var(--lightest-blue), var(--darkest-blue));
+
+    --background-duotone: light-dark(var(--lightest-blue), var(--darkest-blue));
+}
+
+* {
+    color: light-dark(--core-text);
+    background-color: var(--background-duotone);
+}
+
 .emphasized {
     font-style: normal;
-    box-shadow: inset 0px -8px  #C8E4DA;
+    box-shadow: inset 0px -8px  var(--medium-blue);
 }
 
 .link {

@@ -1,19 +1,25 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import AboutAlli from "./pages/AboutAlli";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import GetInvolved from "./pages/GetInvolved";
+import Imprint from "./pages/Imprint";
+import SupportUs from "./pages/SupportUs";
+import Feedback from "./pages/Feedback";
+import Information from "./pages/InformationQualifiedPersonell";
 
 const Router = () => {
   return (
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/about-alli" element={<AboutAlli />} />
         <Route path="/about" element={<About />} />
+        <Route path="/support-us" element={<SupportUs />} />
+        <Route path="/information-for-qualified-personnel" element={<Information />} />
+        <Route path="/feedback" element={<Feedback />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/imprint" element={<Imprint />} />
       </Routes>
     </HashRouter>
   );
