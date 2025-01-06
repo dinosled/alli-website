@@ -6,7 +6,7 @@ import { DonationWidget } from "../DonationWidget.js";
 const SupportUs = () => {
   return (
     <div className={styles.supportUs}>
-      <Layout route="Unterstützen">
+      <Layout route="Unterstützung">
         <ContentSection>
           <h1>Spenden</h1>
           <p>Alli ist und bleibt eine kostenfreie App und ist somit auf Spenden angewiesen. Eine App zu betreiben, kostet Zeit und Geld. Zudem sind weitere Aktualisierungen und Verbesserungen von Alli im Laufe der Zeit geplant.

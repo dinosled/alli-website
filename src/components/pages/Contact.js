@@ -7,7 +7,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
     <div className={styles.contact}>
-      <Layout route="Contact & Imprint">
+      <Layout route="Kontakt">
         <ContentSection>
           <p>
             Hallo, schön, dass du Kontakt zu uns aufnehmen willst! Wir werden uns so schnell wie möglich mit dir in Verbindung setzen. Aufgrund unseres kleinen Teams kann es manchmal allerdings etwas dauern, bis du von uns hörst. Vielen Dank für dein Verständnis und deine Geduld.
