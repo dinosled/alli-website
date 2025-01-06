@@ -10,7 +10,10 @@ const Contact = () => {
       <Layout route="Contact & Imprint">
         <ContentSection>
           <p>
-            Hallo, schön, dass du Kontakt zu uns aufnehmen willst! Wir werden uns so schnell wie möglich mit dir in Verbindung setzen. Aufgrund unseres kleinen Teams kann es manchmal allerdings etwas dauern, bis du von uns hörst. Vielen Dank für dein Verständnis und deine Geduld.
+            Hello there! We're excited to receive your message and will do our
+            best to get back to you as soon as possible. Please keep in mind
+            that we are a small team, so it might take us a moment to respond.
+            Thank you for your patience and understanding.
           </p>
           <a
             href="mailto:team@alli-app.com"

@@ -87,7 +87,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
           <ul>
             <li>
               <button
-                aria-label="Zur Seite: Über Alli"
+                aria-label="Go to Page: About Alli"
                 onClick={() => {
                   navigate("/projects");
                   toggleMenu();
@@ -98,7 +98,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Zur Seite: Über uns"
+                aria-label="Go to Page: About us"
                 onClick={() => {
                   navigate("/about");
                   toggleMenu();
@@ -109,7 +109,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Zur Seite: Unterstützung"
+                aria-label="Go to Page: Support us"
                 onClick={() => {
                   navigate("/get-involved");
                   toggleMenu();
@@ -120,9 +120,9 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Zur Seite: Für Fachpersonal"
+                aria-label="Go to Page: Information for Qualified Personnel"
                 onClick={() => {
-                  navigate("/for-doctors");
+                  navigate("/information-for-qualified-personnel");
                   toggleMenu();
                 }}
               >
@@ -131,7 +131,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Zur Seite: Feedback"
+                aria-label="Go to Page: Feedback"
                 onClick={() => {
                   navigate("/feedback");
                   toggleMenu();
@@ -142,7 +142,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Zur Seite: Kontakt"
+                aria-label="Go to Page: Contact"
                 onClick={() => {
                   navigate("/contact");
                   toggleMenu();
@@ -153,7 +153,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
             </li>
             <li>
               <button
-                aria-label="Zur Seite: Impressum"
+                aria-label="Go to Page: Imprint"
                 onClick={() => {
                   navigate("/imprint");
                   toggleMenu();

@@ -8,12 +8,13 @@ const Imprint = () => {
         <Layout route="Impressum">
             <ContentSection>
             <div className={styles.section}>
-                <h1>Impressum</h1>
+                <h1>Imprint</h1>
+                <p>Maeffert, Schuster, Nikitenko & Kühn GbR</p>
                 <p>
-                Doctors for Choice Germany e.V. – Franz-Ehrlich-Str. 12, 12489 Berlin
+                Doctors for Choice Germany e.V. Franz-Ehrlich-Str. 12 12489 Berlin
                 </p>
                 <h1>Credits</h1>
-                {/* <h2>Graphics:</h2>
+                <h2>Graphics:</h2>
                 <p>
                 We utilize illustrations from{" "}
                 <a
@@ -27,10 +28,10 @@ const Imprint = () => {
                 </a>{" "}
                 and are incredibly grateful for the open-source illustrations they
                 provide.
-                </p> */}
-                {/* <h2>Icons:</h2> */}
+                </p>
+                <h2>Icons:</h2>
                 <p>
-                Wir benutzen Icons von Font Awesome,
+                The icons we use have been generously provided by Font Awesome,
                 created by Dave Gandy -{" "}
                 <a
                     href="https://fontawesome.com/"
@@ -42,18 +43,31 @@ const Imprint = () => {
                     fontawesome.com
                 </a>
                 </p>
-                <h1>Haftungsausschluss</h1>
+                <h1>Disclaimer</h1>
                 <p>
-                Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
+                We would like to point out that as the operator of this website,
+                we cannot assume any responsibility for linked content or external
+                links. The content of linked pages is the sole responsibility of
+                their operators. At the time of linking, the linked pages were
+                checked for possible illegal activity, and no unlawful content was
+                identifiable. However, continuous monitoring of linked pages
+                without specific indications of illegal activity is not
+                reasonable. Upon becoming aware of any illegal activity, we will
+                promptly remove such links.
                 </p>
+                <h1>Copyright</h1>
                 <p>
-                Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-                </p>
-                <h1>Urheberrecht</h1>
-                <p>
-                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
-                <p>
-                Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+                The content and works created by the website operators on this
+                website are subject to German copyright law. They are protected by
+                a Creative Commons license. Unless otherwise stated, the content
+                on this website is licensed under the Creative Commons Attribution
+                3.0 Germany License. To the extent that the content on this
+                website was not created by the operator, the copyrights of third
+                parties are respected. In particular, third-party content is
+                identified as such. Should you become aware of a copyright
+                infringement despite our efforts, please provide us with
+                appropriate notice. Upon becoming aware of any infringements, we
+                will promptly remove such content.
                 </p>
             </div>
             </ContentSection>
