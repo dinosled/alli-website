@@ -49,7 +49,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
         <div className={styles.title}>
           <button
             className={styles.alliButton}
-            aria-label="Go to Page: Home"
+            aria-label="Zur Startseite"
             onClick={() => {
               navigate("/");
             }}
@@ -89,7 +89,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
               <button
                 aria-label="Zur Seite: Über Alli"
                 onClick={() => {
-                  navigate("/projects");
+                  navigate("/about-alli");
                   toggleMenu();
                 }}
               >

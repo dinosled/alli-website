@@ -41,7 +41,6 @@ body {
   color: light-dark(--core-text);
 }
 
-<<<<<<< HEAD
 ul {
   padding: inherit;
   li {
@@ -50,6 +49,3 @@ ul {
     padding: 0.25em 0;
   }
 }
-
-=======
->>>>>>> master
