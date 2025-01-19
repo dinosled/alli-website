@@ -1,11 +1,12 @@
 .burgerMenu {
-    cursor: pointer; 
-    padding: 8px; 
+    cursor: pointer;
+    padding: 8px;
     height: 40px;
     width: 40px;
     border: none;
     border-radius: 5px;
     background-color: var(--core-primary);
+    color: var(--darkest-blue);
 
     * {
         background-color: inherit;
@@ -18,7 +19,7 @@
 }
 
 .burgerContainer{
-    padding: 8px; 
+    padding: 8px;
 }
 
 .alliButton{
@@ -47,7 +48,7 @@
         padding: 8px;
         li{
             padding:  20px 8px 20px 8px;
-            list-style-type: none; 
+            list-style-type: none;
             button{
                 border: none;
                 color: light-dark(--core-text);
@@ -58,7 +59,7 @@
                 box-shadow: inset 0px -8px  var(--medium-blue);
                 cursor: pointer;
             }
-           
+
         }
     }
   }
@@ -110,4 +111,3 @@
     }
     }
  }
- 
