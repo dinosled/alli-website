@@ -1,0 +1,11 @@
+@import "../../styles/global.scss";
+
+.imgContainer {
+  display: grid;
+	gap: 1em;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+    img {
+				width: 100%;
+    }
+}
