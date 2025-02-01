@@ -28,23 +28,27 @@ const Information = () => {
             <p><a href={flyerPrint} download={"Alli-App-Flyer-Print.pdf"}>Print-Version: vier Flyer pro Seite</a></p>
           </div>
           <h3>QR-Codes</h3>
-            <p>Zur Gestaltung und Integration in Ihre eigenen Unterlagen bieten wir hier auch die QR-Codes allein an. Sie können diese (und auch die Buttons zum Kennzeichnen der Version) herunterladen, indem sie rechtsklicken und "Speichern unter…" wählen.</p>
+            <p>Zur Gestaltung und Integration in Ihre eigenen Unterlagen bieten wir hier auch die QR-Codes allein an. Sie können diese durch einen Klick auf das jeweilige Bild herunterladen.</p>
             <div className={styles.two_columns}>
               <div id="android" className={styles.imgContainer}>
-                <img
-                  src={qrPlayStore}
-                  alt="QR Code zum Download für Android aus dem Google Play Store"
-                />
+                <a href={qrPlayStore} download={"alli_app-qr-google_play_store.png"}>
+                  <img
+                    src={qrPlayStore}
+                    alt="QR Code zum Download für Android aus dem Google Play Store"
+                  />
+                </a>
                 <img
                   alt="Android App aus dem Google Play Store herunterladen"
                   src={PlayStoreButton}
                 />
               </div>
               <div id="apple" className={styles.imgContainer}>
-                <img
-                  src={qrAppStore}
-                  alt="QR Code zum Download für iOS aus dem App Store"
-                />
+                <a href={qrAppStore} download={"alli_app-qr-apple_app_store.png"}>
+                  <img
+                    src={qrAppStore}
+                    alt="QR Code zum Download für iOS aus dem App Store"
+                  />
+                </a>
                 <img
                   src={AppStoreButton}
                   alt="iOS App aus dem App Store herunterladen"
