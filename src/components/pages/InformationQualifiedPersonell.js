@@ -28,7 +28,7 @@ const Information = () => {
             <p><a href={flyerPrint} download={"Alli-App-Flyer-Print.pdf"}>Print-Version: vier Flyer pro Seite</a></p>
           </div>
           <h3>QR-Codes</h3>
-            <p>Zur Gestaltung und Integration in Ihre eigenen Unterlagen bieten wir hier auch die QR-Codes allein an.</p>
+            <p>Zur Gestaltung und Integration in Ihre eigenen Unterlagen bieten wir hier auch die QR-Codes allein an. Sie können diese (und auch die Buttons zum Kennzeichnen der Version) herunterladen, indem sie rechtsklicken und "Speichern unter…" wählen.</p>
             <div className={styles.two_columns}>
               <div id="android" className={styles.imgContainer}>
                 <img
