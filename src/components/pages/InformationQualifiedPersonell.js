@@ -1,7 +1,13 @@
 import flyerDigital from "../../assets/files/alli_app-flyer-digital.pdf"
 import flyerPrint from "../../assets/files/alli_app-flyer-print.pdf"
+import businessCards from "../../assets/files/alli_app-business-cards.pdf"
+import qrAppStore from "../../assets/images/alli_app-qr-app_store.png"
+import qrPlayStore from "../../assets/images/alli_app-qr-google_play_store.png"
+import PlayStoreButton from "../../assets/images/PlayStoreButton.svg"
+import AppStoreButton from "../../assets/images/AppStoreButton.svg"
 import ContentSection from "../ContentSection";
 import Layout from "../Layout";
+import styles from "./InformationQualifiedPersonell.module.scss"
 
 const Information = () => {
     return (
@@ -12,12 +18,34 @@ const Information = () => {
           <p>Alli wurde von einem ärztlichen Expertinnen-Team entwickelt. Die Inhalte sind wissenschaftlich fundiert und orientieren sich an den internationalen Leitlinien der amerikanischen (ACOG), britischen (RCOG) und deutschen (DGGG) gynäkologischen Fachgesellschaften sowie den Empfehlungen der Weltgesundheitsorganisation.</p>
           <p>Wir freuen uns über Ihr Feedback und Verbesserungsvorschläge unter der Rubrik “Feedback”!</p>
           <h2>Materialien</h2>
+            <p>Zur Verbreitung des Wissens sind wir auf Sie als unser Netzwerk angewiesen! Zur Hilfestellung bieten wir Ihnen hier eine Reihe an Materialien, die Sie nutzen können, um über Alli zu informieren. Die Nutzung ist damit ausdrücklich erwünscht.</p>
           <h3>Flyer</h3>
           <p>Für einen einfachen Zugang zur App bieten wir Download-Flyer zum Druck an, auf denen die Patient*innen nur einen QR-Code mit ihrem Handy scannen müssen:</p>
-          <a href={flyerDigital} download={"Alli-App-Flyer-Digital.pdf"}>Einzelner Flyer</a>
-          <a href={flyerPrint} download={"Alli-App-Flyer-Print.pdf"}>Print-Version: vier Flyer pro Seite</a>
+            <p><a href={flyerDigital} download={"Alli-App-Flyer-Digital.pdf"}>Einzelner Flyer</a></p>
+            <p><a href={flyerPrint} download={"Alli-App-Flyer-Print.pdf"}>Print-Version: vier Flyer pro Seite</a></p>
+          <h3>QR-Codes</h3>
+            <p>Zur Gestaltung und Integration in Ihre eigenen Unterlagen bieten wir hier auch die QR-Codes allein an.</p>
+            <div className={styles.imgContainer}>
+              <img
+                src={qrPlayStore}
+                alt="QR Code zum Download für Android aus dem Google Play Store"
+              />
+              <img
+                alt="Android App aus dem Google Play Store herunterladen"
+                src={PlayStoreButton}
+              />
+              <img
+                src={qrAppStore}
+                alt="QR Code zum Download für iOS aus dem App Store"
+              />
+              <img
+                src={AppStoreButton}
+                alt="iOS App aus dem App Store herunterladen"
+              />
+            </div>
           <h3>Visitenkarten</h3>
           <p>Gerne schicken wir Ihnen auch Alli-Visitenkarten (gegen eine kleine Spende) für die Praxis zu! Senden Sie uns dafür gerne eine Mail an <a href="mailto:buero@doctorsforchoice.de">buero@doctorsforchoice.de</a>.</p>
+          <p>Alternativ können Sie auch </p>
         </ContentSection>
       </Layout>
     )
