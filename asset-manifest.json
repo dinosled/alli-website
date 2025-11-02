@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cad702b8.css",
-    "main.js": "/static/js/main.9c579214.js",
+    "main.js": "/static/js/main.e4691eaa.js",
     "static/js/453.fccfa67d.chunk.js": "/static/js/453.fccfa67d.chunk.js",
     "static/media/app-banner.png": "/static/media/app-banner.a4d6c4963da50b5ed69b.png",
     "static/media/alli_app-business-cards.pdf": "/static/media/alli_app-business-cards.b96c93449a3450ca3422.pdf",
@@ -12,6 +12,7 @@
     "static/media/alli_app-flyer-digital.pdf": "/static/media/alli_app-flyer-digital.310eaa568dc97621e71d.pdf",
     "static/media/alli_app-flyer-print.pdf": "/static/media/alli_app-flyer-print.f9b0fa3f2f41f8c285fd.pdf",
     "static/media/logo_BMBF.svg": "/static/media/logo_BMBF.fcbde611b487c7aedd85d264a47900ee.svg",
+    "static/media/logo_DfC.svg": "/static/media/logo_DfC.87b3839e696dbeb2c17fed4fcef08522.svg",
     "static/media/alli_app-qr-google_play_store.png": "/static/media/alli_app-qr-google_play_store.d8ddcb01041d6d47f607.png",
     "static/media/AppStoreButton.svg": "/static/media/AppStoreButton.d5d0e5516e85490952379814530c87cf.svg",
     "static/media/PlayStoreButton.svg": "/static/media/PlayStoreButton.ddae327da32963a09d560736cb00c6eb.svg",
@@ -19,11 +20,11 @@
     "static/media/alli-logo.svg": "/static/media/alli-logo.f3de64c2400e4c57e03145ab93110045.svg",
     "index.html": "/index.html",
     "main.cad702b8.css.map": "/static/css/main.cad702b8.css.map",
-    "main.9c579214.js.map": "/static/js/main.9c579214.js.map",
+    "main.e4691eaa.js.map": "/static/js/main.e4691eaa.js.map",
     "453.fccfa67d.chunk.js.map": "/static/js/453.fccfa67d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cad702b8.css",
-    "static/js/main.9c579214.js"
+    "static/js/main.e4691eaa.js"
   ]
 }
